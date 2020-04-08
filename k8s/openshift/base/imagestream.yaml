@@ -13,9 +13,3 @@ metadata:
     app.openshift.io/runtime: golang
     app.openshift.io/runtime-version: 1.11.5
   name: api
-spec:
-  tags:
-  - name: latest
-    from:
-      kind: DockerImage
-      name: quay.io/openshift-pipeline/vote-api:latest
